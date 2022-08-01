@@ -1,0 +1,43 @@
+.backLink {
+  cursor: pointer;
+  padding-right: 5px;
+}
+
+.formWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addResourceWrapper {
+  padding-left: 25px;
+}
+
+.nameInput {
+  width: 400px;
+  height: 30px;
+  margin: 10px 0 20px;
+}
+
+.descriptionInput {
+  width: 400px;
+  height: 30px;
+  margin: 10px 0 20px;
+}
+
+.createBtn {
+  background: #0b69ff;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid #0b69ff;
+  padding: 8px 16px;
+  cursor: pointer;
+  width: 90px;
+}
+
+button:disabled {
+  background-color: rgba(239, 239, 239, 0.3);
+  cursor: default;
+  color: rgba(118, 118, 118, 0.3);
+  border: none;
+}

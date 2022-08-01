@@ -1,0 +1,15 @@
+.addBtn {
+  background: #0b69ff;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid #0b69ff;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-bottom: 1px solid #d7dfe9;
+}
